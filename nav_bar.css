@@ -1,0 +1,44 @@
+li {
+    display: inline;
+}
+
+html {
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #e9573f;
+    color: white;
+    text-align: center;
+}
+
+img {
+    background-color: #e9573f;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.boxed {
+    width: 1700;
+    height: 70;
+    background-color: #e9573f;
+    width: 100%;
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
