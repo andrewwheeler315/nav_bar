@@ -16,6 +16,11 @@ a {
     background-color: #e9573f;
     color: white;
     text-align: center;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12;
 }
 
 img {
@@ -30,7 +35,7 @@ ul {
 
 .boxed {
     width: 1700;
-    height: 70;
+    height: 60;
     background-color: #e9573f;
     width: 100%;
     text-align: center;
@@ -41,4 +46,13 @@ ul {
     width: 50%;
     border: 3px solid green;
     padding: 10px;
+}
+
+::placeholder {
+    color: #e9573f;
+    font-style: italic;
+}
+
+.search_bar {
+    padding-left: 20px;
 }
